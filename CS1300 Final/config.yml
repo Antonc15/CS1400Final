@@ -1,0 +1,38 @@
+# --- INFO --- #
+# Values are resolved as Doubles so please make sure all values end with a decimal.
+# Instead of (0) type (0.0).
+# latitude value should be relative to NORTH
+# longitude value should be relative to WEST
+
+# --- SETTINGS MENU --- #
+settings:
+  dollars-per-mile: 0.4
+  seconds-per-mile: 18.0
+  mile-price-multiplier: 0.00005
+
+# --- AIRPORTS MENU --- #
+airports:
+  LAX:
+    name: "Los Angeles Airport"
+    lat: 33.9422
+    lon: 118.4036
+  SFO:
+    name: "San Francisco Airport"
+    lat: 37.6193
+    lon: 122.3816
+  SAN:
+    name: "San Diego Airport"
+    lat: 32.7332
+    lon: 117.1897
+  JFK:
+    name: "John F. Kennedy Airport"
+    lat: 40.6446
+    lon: 73.7797
+  PEK:
+    name: "Beijing Capital Airport"
+    lat: 40.0799
+    lon: 243.3969
+  SYD:
+    name: "Sydney Airport"
+    lat: 326.06
+    lon: 208.8246
