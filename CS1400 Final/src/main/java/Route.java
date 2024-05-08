@@ -32,9 +32,5 @@ public class Route {
 
     private void calculateRouteByPrice(String _originID, String _destinationID){
 
-        Airport origin = Config.airportMap.get(_originID);
-        Airport destination = Config.airportMap.get(_destinationID);
-
-
     }
 }
