@@ -123,17 +123,9 @@ public class Main {
 
         System.out.println("------------------------------------------------------------------------------------------");
 
-        StringBuilder flightLogText = new StringBuilder();
-
-        for (int i = 0; i < _route.airports.size(); i++) {
-            flightLogText.append(String.format("[%s] ", _route.airports.get(i).name));
-
-            if(i < _route.airports.size() - 1){
-                flightLogText.append(String.format(">>>> %.2f miles | $%.2f | %.2f hours >>>> ", _route.flightDistances.get(i), _route.flightCosts.get(i), _route.flightTimes.get(i) / 3600));
-            }
+        for (int i = 0; i < _route.airports.size() - 1; i++) {
+            System.out.printf("[%s] >>>> %.2f miles | $%.2f | %.2f hours >>>> [%s]\n", _route.airports.get(i).name, _route.flightDistances.get(i), _route.flightCosts.get(i), _route.flightTimes.get(i) / 3600, _route.airports.get(i + 1).name);
         }
-
-        System.out.println(flightLogText);
 
         System.out.println("------------------------------------------------------------------------------------------");
 
