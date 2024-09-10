@@ -1,5 +1,5 @@
 # CS1300 Final
-# Anton Clark
+Anton Clark
 This is my final project for CS 1400.
 
 * YAML parsing is done using SnakeYaml library.
