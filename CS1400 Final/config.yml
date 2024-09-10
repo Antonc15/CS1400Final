@@ -36,3 +36,7 @@ airports:
     name: "Sydney Airport"
     lat: 326.06
     lon: 208.8246
+  BOB:
+    name: "Bob Airport"
+    lat: 0.0
+    lon: 208.8246
