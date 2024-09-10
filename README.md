@@ -8,5 +8,5 @@ This is my final project for CS 1400.
 
 CS 2400 Requirements
 * https://github.com/Antonc15/CS1300Final
-* Visual Studio 2022
+* InteliJ IDEA 2024.1.1
 * OBS 30.2.3
